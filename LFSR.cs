@@ -18,7 +18,7 @@ namespace WindowsFormsApp1
         {
             List<byte> resBytes = new List<byte>();
             var temp = reg;
-            while (resBytes.Count < strSize)
+            while (resBytes.Count < strSize)  
             {
                 byte resByte = 0;
                 for(int i = 0; i < 8; i++)
